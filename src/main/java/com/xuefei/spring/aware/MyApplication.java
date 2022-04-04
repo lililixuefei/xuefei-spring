@@ -17,7 +17,7 @@ public class MyApplication {
          *     a.BeanNameAware 接口用于注入 bean 的名称
          *     b.BeanFactoryAware 注入BeanFactory 容器
          *     c.ApplicationContextAware 注入 ApplicationContext 容器
-         *     d.EmbeddedValueResolverAware ${}
+         *     d.EmbeddedValueResolverAware 注入 ${} 解析器
          */
         GenericApplicationContext context = new GenericApplicationContext();
         context.registerBean("myBean", MyBean.class);
