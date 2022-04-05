@@ -3,7 +3,7 @@ package com.xuefei.spring.aop.proxy;
 import java.lang.reflect.Proxy;
 
 /**
- * @description: JDk 动态代理
+ * @description: JDK 动态代理
  * @author: xuefei
  * @date: 2022/04/05 01:39
  */
