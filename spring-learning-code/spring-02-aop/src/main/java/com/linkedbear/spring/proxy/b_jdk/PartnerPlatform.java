@@ -28,7 +28,7 @@ public class PartnerPlatform {
         Partner partner = partners.remove(0);
         return (Partner) Proxy.newProxyInstance(partner.getClass().getClassLoader(), partner.getClass().getInterfaces(),
                 new InvocationHandler() {
-                    private int budget = money;
+                    private final int budget = money;
                     private boolean status = false;
                     
                     @Override

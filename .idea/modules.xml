@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/spring-learning-code/spring-00-introduction/spring-00-introduction.iml" filepath="$PROJECT_DIR$/spring-learning-code/spring-00-introduction/spring-00-introduction.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-learning-code/spring-01-ioc/spring-01-ioc.iml" filepath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/spring-01-ioc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-learning-code/spring-02-aop/spring-02-aop.iml" filepath="$PROJECT_DIR$/spring-learning-code/spring-02-aop/spring-02-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-learning-code/spring-03-dao/spring-03-dao.iml" filepath="$PROJECT_DIR$/spring-learning-code/spring-03-dao/spring-03-dao.iml" />
@@ -12,8 +11,6 @@
       <module fileurl="file://$PROJECT_DIR$/spring-learning-code/spring-04-webmvc-xml-withdao/spring-04-webmvc-xml-withdao.iml" filepath="$PROJECT_DIR$/spring-learning-code/spring-04-webmvc-xml-withdao/spring-04-webmvc-xml-withdao.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-learning-code/spring-05-integration/spring-05-integration.iml" filepath="$PROJECT_DIR$/spring-learning-code/spring-05-integration/spring-05-integration.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-learning-code/spring-06-boot/spring-06-boot.iml" filepath="$PROJECT_DIR$/spring-learning-code/spring-06-boot/spring-06-boot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-learning-code/spring-learning-code.iml" filepath="$PROJECT_DIR$/spring-learning-code/spring-learning-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/xuefei-spring.iml" filepath="$PROJECT_DIR$/xuefei-spring.iml" />
     </modules>
   </component>
 </project>

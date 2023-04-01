@@ -10,11 +10,11 @@ public class XmlAspectApplication {
         ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("aop/xmlaspect.xml");
         FinanceService financeService = ctx.getBean(FinanceService.class);
         financeService.addMoney(123.45);
-        financeService.subtractMoney(543.21);
-        financeService.getMoneyById("abc");
-    
-        OrderService orderService = ctx.getBean(OrderService.class);
-        orderService.createOrder();
-        orderService.getOrderById("abcde");
+//        financeService.subtractMoney(543.21);
+//        financeService.getMoneyById("abc");
+//
+//        OrderService orderService = ctx.getBean(OrderService.class);
+//        orderService.createOrder();
+//        orderService.getOrderById("abcde");
     }
 }

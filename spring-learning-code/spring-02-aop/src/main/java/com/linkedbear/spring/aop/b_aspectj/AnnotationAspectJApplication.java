@@ -11,5 +11,7 @@ public class AnnotationAspectJApplication {
                 AspectJAOPConfiguration.class);
         FinanceService financeService = ctx.getBean(FinanceService.class);
         financeService.addMoney(123.45);
+        financeService.subtractMoney(543.21);
+        financeService.getMoneyById("abc");
     }
 }

@@ -19,20 +19,6 @@
         <module name="spring-04-webmvc" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="spring-00-introduction" target="1.8" />
-      <module name="spring-01-ioc" target="1.8" />
-      <module name="spring-02-aop" target="1.8" />
-      <module name="spring-03-dao" target="1.8" />
-      <module name="spring-04-web" target="1.8" />
-      <module name="spring-04-webmvc" target="1.8" />
-      <module name="spring-04-webmvc-anno-withdao" target="1.8" />
-      <module name="spring-04-webmvc-xml-withdao" target="1.8" />
-      <module name="spring-05-integration" target="1.8" />
-      <module name="spring-06-boot" target="1.8" />
-      <module name="spring-learning-code" target="8" />
-      <module name="xuefei-spring" target="8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

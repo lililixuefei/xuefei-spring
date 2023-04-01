@@ -13,17 +13,18 @@ import java.util.List;
  * 陪玩平台
  */
 public class PartnerPlatform {
-    
+
     private static List<Partner> partners = new ArrayList<>();
-    
+
     static {
         partners.add(new Partner("肖洁洁"));
         partners.add(new Partner("田苟"));
         partners.add(new Partner("高总裁"));
     }
-    
+
     /**
      * 由陪玩平台根据预算推荐陪玩
+     *
      * @param money 预算
      * @return
      */
@@ -32,7 +33,7 @@ public class PartnerPlatform {
         return (Partner) Enhancer.create(partner.getClass(), new MethodInterceptor() {
             private int budget = money;
             private boolean status = false;
-            
+
             @Override
             public Object intercept(Object proxy, Method method, Object[] args, MethodProxy methodProxy)
                     throws Throwable {

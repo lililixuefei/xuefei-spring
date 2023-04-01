@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5735115f-9f8f-47c5-af34-c866d51e29b0" name="Default Changelist" comment="" />
+    <list default="true" id="5735115f-9f8f-47c5-af34-c866d51e29b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-00-introduction/spring-00-introduction.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/spring-01-ioc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/spring-01-ioc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/bean/a_type/BeanTypeXmlApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/bean/a_type/BeanTypeXmlApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/bean/a_type/BeanTypeXmlApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/bean/a_type/BeanTypeXmlApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-02-aop/spring-02-aop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-02-aop/spring-02-aop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-02-aop/src/main/java/com/linkedbear/spring/aop/a_xmlaspect/XmlAspectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-02-aop/src/main/java/com/linkedbear/spring/aop/a_xmlaspect/XmlAspectApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-02-aop/src/main/java/com/linkedbear/spring/aop/b_aspectj/AnnotationAspectJApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-02-aop/src/main/java/com/linkedbear/spring/aop/b_aspectj/AnnotationAspectJApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-02-aop/src/main/java/com/linkedbear/spring/proxy/b_jdk/PartnerPlatform.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-02-aop/src/main/java/com/linkedbear/spring/proxy/b_jdk/PartnerPlatform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-02-aop/src/main/java/com/linkedbear/spring/proxy/c_cglib/PartnerPlatform.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-02-aop/src/main/java/com/linkedbear/spring/proxy/c_cglib/PartnerPlatform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-03-dao/spring-03-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-03-dao/spring-03-dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-04-web/spring-04-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-04-web/spring-04-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-04-webmvc-anno-withdao/spring-04-webmvc-anno-withdao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-04-webmvc-anno-withdao/spring-04-webmvc-anno-withdao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-04-webmvc-xml-withdao/spring-04-webmvc-xml-withdao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-04-webmvc-xml-withdao/spring-04-webmvc-xml-withdao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-04-webmvc/spring-04-webmvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-04-webmvc/spring-04-webmvc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-05-integration/spring-05-integration.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-05-integration/spring-05-integration.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-06-boot/spring-06-boot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-06-boot/spring-06-boot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-learning-code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuefei-spring.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +40,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -35,53 +57,46 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RunManager" selected="Application.FactoryBeanPostProcessorApplication">
-    <configuration name="EnvironmentApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.environment.b_api.EnvironmentApiApplication" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "cb34ccfd104b5f464839657b82fb99a9"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.AnnotationAspectJApplication">
+    <configuration name="AnnotationAspectJApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.aop.b_aspectj.AnnotationAspectJApplication" />
+      <module name="spring-02-aop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.proxy.a_basic.Client" />
+      <module name="spring-02-aop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LifecycleSourceXmlApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.lifecycle.e_source.LifecycleSourceXmlApplication" />
       <module name="spring-01-ioc" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnvironmentQuickstartApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.environment.a_quickstart.EnvironmentQuickstartApplication" />
-      <module name="spring-01-ioc" />
+    <configuration name="XmlAspectApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.aop.a_xmlaspect.XmlAspectApplication" />
+      <module name="spring-02-aop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryBeanPostProcessorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.postprocessor.d_factorybean.FactoryBeanPostProcessorApplication" />
-      <module name="spring-01-ioc" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InitializingDisposableAnnoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.lifecycle.c_initializingbean.InitializingDisposableAnnoApplication" />
-      <module name="spring-01-ioc" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JSR250AnnoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.lifecycle.b_jsr250.JSR250AnnoApplication" />
-      <module name="spring-01-ioc" />
+    <configuration name="com.linkedbear.spring.proxy.b_jdk.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.proxy.b_jdk.Client" />
+      <module name="spring-02-aop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,20 +109,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.InitializingDisposableAnnoApplication" />
-      <item itemvalue="Application.JSR250AnnoApplication" />
+      <item itemvalue="Application.AnnotationAspectJApplication" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.XmlAspectApplication" />
+      <item itemvalue="Application.com.linkedbear.spring.proxy.b_jdk.Client" />
+      <item itemvalue="Application.LifecycleSourceXmlApplication" />
       <item itemvalue="Spring Boot.BootQuickstartApplication" />
-      <item itemvalue="Application.EnvironmentQuickstartApplication" />
-      <item itemvalue="Application.EnvironmentApiApplication" />
-      <item itemvalue="Application.FactoryBeanPostProcessorApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FactoryBeanPostProcessorApplication" />
-        <item itemvalue="Application.EnvironmentApiApplication" />
-        <item itemvalue="Application.EnvironmentQuickstartApplication" />
-        <item itemvalue="Application.JSR250AnnoApplication" />
-        <item itemvalue="Application.InitializingDisposableAnnoApplication" />
+        <item itemvalue="Application.AnnotationAspectJApplication" />
+        <item itemvalue="Application.XmlAspectApplication" />
+        <item itemvalue="Application.com.linkedbear.spring.proxy.b_jdk.Client" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.LifecycleSourceXmlApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +140,12 @@
       <workItem from="1679740648796" duration="857000" />
       <workItem from="1679741632257" duration="74000" />
       <workItem from="1679741733429" duration="2826000" />
-      <workItem from="1679747113987" duration="2766000" />
+      <workItem from="1679747113987" duration="3482000" />
+      <workItem from="1679804050329" duration="23000" />
+      <workItem from="1679804111942" duration="4311000" />
+      <workItem from="1679812703489" duration="1157000" />
+      <workItem from="1679818858081" duration="1444000" />
+      <workItem from="1680342578628" duration="3353000" />
     </task>
     <servers />
   </component>
@@ -146,10 +166,45 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/basic_di/d_autowired/config/AutowiredConfiguration.java</url>
           <line>18</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$USER_HOME$/repository/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/support/AbstractXmlApplicationContext.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$USER_HOME$/repository/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.java</url>
+          <line>255</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$USER_HOME$/repository/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.java</url>
+          <line>213</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/repository/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.java</url>
+          <line>224</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/repository/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.java</url>
+          <line>265</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/repository/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java</url>
+          <line>245</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/bean/a_type/BeanTypeXmlApplication.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
