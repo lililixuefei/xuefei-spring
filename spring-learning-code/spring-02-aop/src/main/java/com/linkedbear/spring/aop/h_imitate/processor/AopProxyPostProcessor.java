@@ -30,11 +30,11 @@ import java.util.concurrent.ConcurrentHashMap;
 
 @Component
 public class AopProxyPostProcessor implements BeanPostProcessor, BeanFactoryAware {
-    
+
     private ConfigurableListableBeanFactory beanFactory;
-    
-    private Map<PointcutExpression, Method> beforePointcutMethodMap = new ConcurrentHashMap<>();
-    
+
+    private final Map<PointcutExpression, Method> beforePointcutMethodMap = new ConcurrentHashMap<>();
+
     @PostConstruct
     public void initAspectAndPointcuts() {
         // 取到BeanFactory中的所有BeanDefinition
@@ -62,7 +62,7 @@ public class AopProxyPostProcessor implements BeanPostProcessor, BeanFactoryAwar
                         PointcutExpression pointcutExpression = pointcutParser.parsePointcutExpression(pointcutExp);
                         beforePointcutMethodMap.put(pointcutExpression, method);
                     } catch (Exception e) {
-                    	// 不支持
+                        // 不支持
                         e.printStackTrace();
                     }
                 }
@@ -76,7 +76,7 @@ public class AopProxyPostProcessor implements BeanPostProcessor, BeanFactoryAwar
             });
         }
     }
-    
+
     @Override
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
         // 切面不增强
@@ -104,7 +104,7 @@ public class AopProxyPostProcessor implements BeanPostProcessor, BeanFactoryAwar
             return methodProxy.invokeSuper(proxy, args);
         });
     }
-    
+
     @Override
     public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
         this.beanFactory = (ConfigurableListableBeanFactory) beanFactory;
