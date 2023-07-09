@@ -5,25 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5735115f-9f8f-47c5-af34-c866d51e29b0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/spring-01-ioc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-02-aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-02-aop/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-02-aop/spring-02-aop.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-02-aop/src/main/java/com/linkedbear/spring/aop/h_imitate/ImitateAopApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-02-aop/src/main/java/com/linkedbear/spring/aop/h_imitate/ImitateAopApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-02-aop/src/main/java/com/linkedbear/spring/aop/h_imitate/processor/AopProxyPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-02-aop/src/main/java/com/linkedbear/spring/aop/h_imitate/processor/AopProxyPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-02-aop/target/classes/com/linkedbear/spring/aop/h_imitate/ImitateAopApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-02-aop/target/classes/com/linkedbear/spring/aop/h_imitate/ImitateAopApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-02-aop/target/classes/com/linkedbear/spring/aop/h_imitate/processor/AopProxyPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-02-aop/target/classes/com/linkedbear/spring/aop/h_imitate/processor/AopProxyPostProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-03-dao/spring-03-dao.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-04-web/spring-04-web.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-04-webmvc-anno-withdao/spring-04-webmvc-anno-withdao.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-04-webmvc-xml-withdao/spring-04-webmvc-xml-withdao.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-04-webmvc/spring-04-webmvc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-05-integration/spring-05-integration.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-06-boot/spring-06-boot.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/basic_di/resource/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/basic_di/resource/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/basic_di/resource/ResourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/basic_di/resource/TestResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/resources/basic_dl/quickstart-byname.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/resources/basic_dl/quickstart-byname.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/annotation/c_scan/ComponentScanApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/annotation/c_scan/ComponentScanApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/annotation/d_importxml/ImportXmlAnnoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/annotation/d_importxml/ImportXmlAnnoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/annotation/e_basepackageclass/BasePackageClassApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/annotation/e_basepackageclass/BasePackageClassApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/annotation/f_typefilter/TypeFilterApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/annotation/f_typefilter/TypeFilterApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/annotation/i_propertyyml/factory/YmlPropertySourceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/annotation/i_propertyyml/factory/YmlPropertySourceFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/basic_di/h_aware/bean/AwaredTestBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/basic_di/h_aware/bean/AwaredTestBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/basic_dl/e_beannames/BeannamesApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/basic_dl/e_beannames/BeannamesApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/basic_dl/f_lazylookup/ImmediatlyLookupApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/basic_dl/f_lazylookup/ImmediatlyLookupApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/basic_dl/f_lazylookup/LazyLookupApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/basic_dl/f_lazylookup/LazyLookupApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/bean/a_type/BeanTypeAnnoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/bean/a_type/BeanTypeAnnoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/bean/a_type/bean/ToyFactoryBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/bean/a_type/bean/ToyFactoryBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/configuration/a_module/TavernApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/configuration/a_module/TavernApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/configuration/b_profile/TavernProfileApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/configuration/b_profile/TavernProfileApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/configuration/c_conditional/TavernConditionalApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/configuration/c_conditional/TavernConditionalApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/configuration/c_conditional/condition/OnBeanCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/configuration/c_conditional/condition/OnBeanCondition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/configuration/d_enablejdbc/components/OnClassNameConditional.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/configuration/d_enablejdbc/components/OnClassNameConditional.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/configuration/e_enablejdbc/components/OnClassNameConditional.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/configuration/e_enablejdbc/components/OnClassNameConditional.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/configuration/f_enablejdbc/config/DataSourceRegisterPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/configuration/f_enablejdbc/config/DataSourceRegisterPostProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/container/a_beanfactory/ListableBeanFactoryApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/container/a_beanfactory/ListableBeanFactoryApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/container/b_applicationcontext/RefreshTestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/container/b_applicationcontext/RefreshTestApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/definition/c_removedefinition/config/RemoveBeanDefinitionPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/definition/c_removedefinition/config/RemoveBeanDefinitionPostProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/postprocessor/h_factoryprocessor/config/ColorNameSetterFactoryPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/postprocessor/h_factoryprocessor/config/ColorNameSetterFactoryPostProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/resource/ProtocolResolverApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/resource/ProtocolResolverApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,9 +58,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/repository/org/springframework/spring-aop/5.2.8.RELEASE/spring-aop-5.2.8.RELEASE-sources.jar!/org/springframework/aop/config/AopConfigUtils.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$USER_HOME$/repository/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/annotation/AspectJAutoProxyRegistrar.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$USER_HOME$/repository/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/annotation/EnableAspectJAutoProxy.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$USER_HOME$/repository/org/springframework/spring-aop/5.2.8.RELEASE/spring-aop-5.2.8.RELEASE-sources.jar!/org/springframework/aop/config/AopConfigUtils.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,22 +79,29 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/xuefei/workspace/xuefei-spring/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/basic_di/resource",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "d5904450f0ede7989195d1e975488304"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/basic_di/resource" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoApplication">
-    <configuration name="AnnotationAspectJApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.aop.b_aspectj.AnnotationAspectJApplication" />
-      <module name="spring-02-aop" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.com.linkedbear.spring.basic_di.j_resource.TestResource">
     <configuration name="AnnotationAspectJJoinPointApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.aop.c_joinpoint.AnnotationAspectJJoinPointApplication" />
       <module name="spring-02-aop" />
@@ -81,22 +109,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.proxy.a_basic.Client" />
-      <module name="spring-02-aop" />
+    <configuration name="AnnotationConfigApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.annotation.a_quickstart.AnnotationConfigApplication" />
+      <module name="spring-01-ioc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickstartByNameApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.basic_dl.a_quickstart_byname.QuickstartByNameApplication" />
+      <module name="spring-01-ioc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestResource" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.basic_di.j_resource.TestResource" />
+      <module name="spring-01-ioc" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="XmlAspectApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.aop.a_xmlaspect.XmlAspectApplication" />
-      <module name="spring-02-aop" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.linkedbear.spring.proxy.b_jdk.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.proxy.b_jdk.Client" />
       <module name="spring-02-aop" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,21 +152,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AnnotationAspectJApplication" />
-      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.QuickstartByNameApplication" />
+      <item itemvalue="Application.com.linkedbear.spring.basic_di.j_resource.TestResource" />
+      <item itemvalue="Application.AnnotationConfigApplication" />
       <item itemvalue="Application.XmlAspectApplication" />
-      <item itemvalue="Application.com.linkedbear.spring.proxy.b_jdk.Client" />
-      <item itemvalue="Spring Boot.BootQuickstartApplication" />
       <item itemvalue="Application.AnnotationAspectJJoinPointApplication" />
+      <item itemvalue="Spring Boot.BootQuickstartApplication" />
       <item itemvalue="Spring Boot.DemoApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.linkedbear.spring.basic_di.j_resource.TestResource" />
+        <item itemvalue="Application.QuickstartByNameApplication" />
+        <item itemvalue="Application.AnnotationConfigApplication" />
         <item itemvalue="Application.AnnotationAspectJJoinPointApplication" />
         <item itemvalue="Application.XmlAspectApplication" />
-        <item itemvalue="Application.AnnotationAspectJApplication" />
-        <item itemvalue="Application.com.linkedbear.spring.proxy.b_jdk.Client" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +193,10 @@
       <workItem from="1680349574714" duration="2143000" />
       <workItem from="1680353480059" duration="2264000" />
       <workItem from="1680412248346" duration="2324000" />
-      <workItem from="1684660188092" duration="2608000" />
+      <workItem from="1684660188092" duration="5992000" />
+      <workItem from="1685894739973" duration="236000" />
+      <workItem from="1688909601650" duration="1816000" />
+      <workItem from="1688911492967" duration="884000" />
     </task>
     <servers />
   </component>
@@ -175,7 +213,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -234,6 +271,31 @@
           <url>file://$PROJECT_DIR$/spring-learning-code/spring-02-aop/src/main/java/com/linkedbear/spring/aop/c_joinpoint/component/Logger.java</url>
           <line>32</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.9.RELEASE/spring-boot-autoconfigure-2.1.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationPackages.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.9.RELEASE/spring-boot-autoconfigure-2.1.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationPackages.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.9.RELEASE/spring-boot-autoconfigure-2.1.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationPackages.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.9.RELEASE/spring-boot-autoconfigure-2.1.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationPackages.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.9.RELEASE/spring-boot-autoconfigure-2.1.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationPackages.java</url>
+          <line>177</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

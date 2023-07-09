@@ -5,4 +5,5 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="person" class="com.linkedbear.spring.basic_dl.a_quickstart_byname.bean.Person"></bean>
+<!--    <bean id="person" class="com.linkedbear.spring.basic_dl.a_quickstart_byname.bean.Person"></bean>-->
 </beans>
