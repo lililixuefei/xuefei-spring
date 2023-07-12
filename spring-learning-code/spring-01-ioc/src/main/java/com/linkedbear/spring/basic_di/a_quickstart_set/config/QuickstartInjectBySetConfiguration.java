@@ -2,6 +2,7 @@ package com.linkedbear.spring.basic_di.a_quickstart_set.config;
 
 import com.linkedbear.spring.basic_di.a_quickstart_set.bean.Cat;
 import com.linkedbear.spring.basic_di.a_quickstart_set.bean.Person;
+import com.linkedbear.spring.configuration.c_conditional.anno.ConditionalOnBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
