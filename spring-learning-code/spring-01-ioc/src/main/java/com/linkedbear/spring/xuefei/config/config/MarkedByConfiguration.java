@@ -12,15 +12,21 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration()
 public class MarkedByConfiguration {
-    @Bean
-    public A a(){
-        return new A();
-    }
+
 
     @Bean
     public B b(){
         a();
-        return new B();
+        B b = new B();
+        System.out.println(b);
+        return b;
+    }
+
+    @Bean
+    public A a(){
+        A a = new A();
+        System.out.println(a);
+        return a;
     }
 }
 

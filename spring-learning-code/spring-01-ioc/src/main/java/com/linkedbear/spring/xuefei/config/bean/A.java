@@ -8,6 +8,6 @@ package com.linkedbear.spring.xuefei.config.bean;
 public class A {
 
     public A() {
-
+        System.out.println("调用A的构造方法");
     }
 }

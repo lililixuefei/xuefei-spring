@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5735115f-9f8f-47c5-af34-c866d51e29b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/bpp/BeanFactoryPostProcessorsApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/componentScan/ComponentScanApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/componentScan/component/BeanObj1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/componentScan/component/BeanObj2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/componentScan/config/ComponentConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/ConfigApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/ConfigApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/bean/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/bean/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/bean/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/bean/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/MarkedByComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/config/MarkedByComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/MarkedByConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/config/MarkedByConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/bean/BeanConfigApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/bean/bean/BeanObj1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/bean/bean/BeanObj2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/bean/config/BeanConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/ConfigApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/ConfigApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/bean/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/bean/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/bean/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/bean/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/config/MarkedByComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/config/MarkedByComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/config/MarkedByConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/config/MarkedByConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,32 +63,36 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/xuefei/workspace/xuefei-spring/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/basic_di/resource&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;63dcf5c38ab5b8b35fdd662a0b97be86&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/xuefei/workspace/xuefei-spring/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/bean/bean",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "63dcf5c38ab5b8b35fdd662a0b97be86"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/bean/bean" />
       <recent name="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/basic_di/resource" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.linkedbear.spring.xuefei.bean.bean" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ComponentScanApp">
-    <configuration name="AnnotationConfigApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.annotation.a_quickstart.AnnotationConfigApplication" />
+  <component name="RunManager" selected="Application.com.linkedbear.spring.xuefei.config.ConfigApp">
+    <configuration name="BeanConfigApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.xuefei.bean.BeanConfigApp" />
       <module name="spring-01-ioc" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,21 +141,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BeanConfigApp" />
       <item itemvalue="Application.ComponentScanApp" />
       <item itemvalue="Application.com.linkedbear.spring.xuefei.config.ConfigApp" />
       <item itemvalue="Application.InitMethodAnnoApplication" />
       <item itemvalue="Application.QuickstartByNameApplication" />
-      <item itemvalue="Application.AnnotationConfigApplication" />
       <item itemvalue="Spring Boot.BootQuickstartApplication" />
       <item itemvalue="Spring Boot.DemoApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ComponentScanApp" />
         <item itemvalue="Application.com.linkedbear.spring.xuefei.config.ConfigApp" />
+        <item itemvalue="Application.BeanConfigApp" />
+        <item itemvalue="Application.ComponentScanApp" />
         <item itemvalue="Application.InitMethodAnnoApplication" />
         <item itemvalue="Application.QuickstartByNameApplication" />
-        <item itemvalue="Application.AnnotationConfigApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +189,7 @@
       <workItem from="1689173480594" duration="5540000" />
       <workItem from="1689513508910" duration="311000" />
       <workItem from="1689694484423" duration="1905000" />
-      <workItem from="1689741516445" duration="5043000" />
+      <workItem from="1689741516445" duration="8489000" />
     </task>
     <servers />
   </component>
@@ -332,15 +335,65 @@
           <line>92</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$USER_HOME$/repository/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.java</url>
           <line>294</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$USER_HOME$/repository/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigUtils.java</url>
           <line>208</line>
           <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$USER_HOME$/repository/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassParser.java</url>
+          <line>401</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$USER_HOME$/repository/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassEnhancer.java</url>
+          <line>316</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/ConfigApp.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/ConfigApp.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/ConfigApp.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/ConfigApp.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$USER_HOME$/repository/org/springframework/spring-core/5.2.8.RELEASE/spring-core-5.2.8.RELEASE-sources.jar!/org/springframework/cglib/proxy/MethodProxy.java</url>
+          <line>243</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/config/MarkedByConfiguration.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/repository/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassEnhancer.java</url>
+          <line>362</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/repository/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassEnhancer.java</url>
+          <line>343</line>
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
