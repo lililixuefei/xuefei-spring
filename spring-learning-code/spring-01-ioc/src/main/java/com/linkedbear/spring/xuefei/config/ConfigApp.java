@@ -1,7 +1,7 @@
-package com.linkedbear.spring.xuefei;
+package com.linkedbear.spring.xuefei.config;
 
-import com.linkedbear.spring.xuefei.config.MarkedByComponent;
-import com.linkedbear.spring.xuefei.config.MarkedByConfiguration;
+import com.linkedbear.spring.xuefei.config.config.MarkedByComponent;
+import com.linkedbear.spring.xuefei.config.config.MarkedByConfiguration;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**

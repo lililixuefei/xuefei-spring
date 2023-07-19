@@ -1,4 +1,4 @@
-package com.linkedbear.spring.xuefei.bean;
+package com.linkedbear.spring.xuefei.config.bean;
 
 /**
  * @description:

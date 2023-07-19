@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5735115f-9f8f-47c5-af34-c866d51e29b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/ConfigApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/bean/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/bean/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/MarkedByComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/MarkedByConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/lifecycle/a_initmethod/config/InitMethodConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/lifecycle/a_initmethod/config/InitMethodConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/lifecycle/a_initmethod/config/InitMethodConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/target/classes/com/linkedbear/spring/lifecycle/a_initmethod/config/InitMethodConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/bpp/BeanFactoryPostProcessorsApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/componentScan/ComponentScanApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/componentScan/component/BeanObj1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/componentScan/component/BeanObj2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/componentScan/config/ComponentConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/ConfigApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/ConfigApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/bean/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/bean/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/bean/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/bean/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/MarkedByComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/config/MarkedByComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/MarkedByConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/config/config/MarkedByConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -83,14 +87,7 @@
       <recent name="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/basic_di/resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConfigApp">
-    <configuration name="AnnotationAspectJJoinPointApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.aop.c_joinpoint.AnnotationAspectJJoinPointApplication" />
-      <module name="spring-02-aop" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ComponentScanApp">
     <configuration name="AnnotationConfigApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.annotation.a_quickstart.AnnotationConfigApplication" />
       <module name="spring-01-ioc" />
@@ -98,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.xuefei.ConfigApp" />
+    <configuration name="ComponentScanApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.xuefei.componentScan.ComponentScanApp" />
       <module name="spring-01-ioc" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,6 +111,13 @@
     </configuration>
     <configuration name="QuickstartByNameApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.basic_dl.a_quickstart_byname.QuickstartByNameApplication" />
+      <module name="spring-01-ioc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.linkedbear.spring.xuefei.config.ConfigApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.xuefei.config.ConfigApp" />
       <module name="spring-01-ioc" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,21 +138,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConfigApp" />
+      <item itemvalue="Application.ComponentScanApp" />
+      <item itemvalue="Application.com.linkedbear.spring.xuefei.config.ConfigApp" />
       <item itemvalue="Application.InitMethodAnnoApplication" />
       <item itemvalue="Application.QuickstartByNameApplication" />
       <item itemvalue="Application.AnnotationConfigApplication" />
-      <item itemvalue="Application.AnnotationAspectJJoinPointApplication" />
       <item itemvalue="Spring Boot.BootQuickstartApplication" />
       <item itemvalue="Spring Boot.DemoApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConfigApp" />
+        <item itemvalue="Application.ComponentScanApp" />
+        <item itemvalue="Application.com.linkedbear.spring.xuefei.config.ConfigApp" />
         <item itemvalue="Application.InitMethodAnnoApplication" />
         <item itemvalue="Application.QuickstartByNameApplication" />
         <item itemvalue="Application.AnnotationConfigApplication" />
-        <item itemvalue="Application.AnnotationAspectJJoinPointApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +185,8 @@
       <workItem from="1688911492967" duration="2050000" />
       <workItem from="1689173480594" duration="5540000" />
       <workItem from="1689513508910" duration="311000" />
-      <workItem from="1689694484423" duration="714000" />
+      <workItem from="1689694484423" duration="1905000" />
+      <workItem from="1689741516445" duration="5043000" />
     </task>
     <servers />
   </component>

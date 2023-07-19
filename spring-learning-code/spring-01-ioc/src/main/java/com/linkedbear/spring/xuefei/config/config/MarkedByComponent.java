@@ -1,7 +1,7 @@
-package com.linkedbear.spring.xuefei.config;
+package com.linkedbear.spring.xuefei.config.config;
 
-import com.linkedbear.spring.xuefei.bean.A;
-import com.linkedbear.spring.xuefei.bean.B;
+import com.linkedbear.spring.xuefei.config.bean.A;
+import com.linkedbear.spring.xuefei.config.bean.B;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
