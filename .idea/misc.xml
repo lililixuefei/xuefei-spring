@@ -21,9 +21,9 @@
         <option value="$PROJECT_DIR$/spring-learning-code/spring-04-webmvc-anno-withdao/pom.xml" />
         <option value="$PROJECT_DIR$/spring-learning-code/spring-04-webmvc-xml-withdao/pom.xml" />
         <option value="$PROJECT_DIR$/spring-learning-code/spring-05-integration/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-learning-code/spring-06-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/man-spring/show/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="openjdk-20" project-jdk-type="JavaSDK" />
 </project>
