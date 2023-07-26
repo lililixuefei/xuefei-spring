@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5735115f-9f8f-47c5-af34-c866d51e29b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/condition/ConditionApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/condition/bean/BeanObj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/condition/condition/MyCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/condition/config/BeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/importannotation/ImportApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/importannotation/bean/Element01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/importannotation/bean/Element02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/importannotation/bean/Element03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/importannotation/bean/Element04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/importannotation/config/Element02ImportBeanDefinitionRegistrar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/importannotation/config/Element03Selector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/importannotation/config/Element04Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/importannotation/config/EnableElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/condition/ConditionApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/condition/ConditionApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -82,11 +89,12 @@
       <recent name="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/basic_di/resource" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.linkedbear.spring.xuefei.importannotation.bean" />
       <recent name="com.linkedbear.spring.xuefei.condition.bean" />
       <recent name="com.linkedbear.spring.xuefei.bean.bean" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConditionApp">
+  <component name="RunManager" selected="Application.ImportApp">
     <configuration name="BeanConfigApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.xuefei.bean.BeanConfigApp" />
       <module name="spring-01-ioc" />
@@ -108,8 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InitMethodAnnoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.lifecycle.a_initmethod.InitMethodAnnoApplication" />
+    <configuration name="ImportApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.xuefei.importannotation.ImportApp" />
       <module name="spring-01-ioc" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,18 +148,18 @@
       <item itemvalue="Application.BeanConfigApp" />
       <item itemvalue="Application.ComponentScanApp" />
       <item itemvalue="Application.ConditionApp" />
+      <item itemvalue="Application.ImportApp" />
       <item itemvalue="Application.com.linkedbear.spring.xuefei.config.ConfigApp" />
-      <item itemvalue="Application.InitMethodAnnoApplication" />
       <item itemvalue="Spring Boot.BootQuickstartApplication" />
       <item itemvalue="Spring Boot.DemoApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ImportApp" />
         <item itemvalue="Application.ConditionApp" />
         <item itemvalue="Application.com.linkedbear.spring.xuefei.config.ConfigApp" />
         <item itemvalue="Application.BeanConfigApp" />
         <item itemvalue="Application.ComponentScanApp" />
-        <item itemvalue="Application.InitMethodAnnoApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +193,7 @@
       <workItem from="1689173480594" duration="5540000" />
       <workItem from="1689513508910" duration="311000" />
       <workItem from="1689694484423" duration="1905000" />
-      <workItem from="1689741516445" duration="9304000" />
+      <workItem from="1689741516445" duration="11124000" />
     </task>
     <servers />
   </component>
@@ -393,7 +401,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/condition/condition/MyCondition.java</url>
-          <line>18</line>
+          <line>42</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint type="java-line">

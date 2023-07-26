@@ -5,7 +5,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
- * @description:
+ * @description: https://my.oschina.net/funcy/blog/4873444
  * @author: xuefei
  * @date: 2023/07/19 18:59
  */
