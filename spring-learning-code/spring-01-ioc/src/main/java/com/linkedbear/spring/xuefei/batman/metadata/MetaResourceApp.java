@@ -1,4 +1,4 @@
-package com.linkedbear.spring.xuefei.metadata;
+package com.linkedbear.spring.xuefei.batman.metadata;
 
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
@@ -20,7 +20,7 @@ public class MetaResourceApp {
         CachingMetadataReaderFactory readerFactory = new CachingMetadataReaderFactory();
         // 下面两种初始化方式都可，效果一样
         //MetadataReader metadataReader = readerFactory.getMetadataReader(MetaDemo.class.getName());
-        MetadataReader metadataReader = readerFactory.getMetadataReader(new ClassPathResource("com/linkedbear/spring/xuefei/metadata/MetaDemo.class"));
+        MetadataReader metadataReader = readerFactory.getMetadataReader(new ClassPathResource("com/linkedbear/spring/xuefei/batman/metadata/MetaDemo.class"));
 
         ClassMetadata classMetadata = metadataReader.getClassMetadata();
         AnnotationMetadata annotationMetadata = metadataReader.getAnnotationMetadata();

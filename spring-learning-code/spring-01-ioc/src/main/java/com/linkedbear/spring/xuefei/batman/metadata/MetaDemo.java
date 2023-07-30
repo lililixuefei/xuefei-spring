@@ -1,4 +1,4 @@
-package com.linkedbear.spring.xuefei.metadata;
+package com.linkedbear.spring.xuefei.batman.metadata;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.EnableAsync;

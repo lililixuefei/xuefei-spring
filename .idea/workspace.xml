@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5735115f-9f8f-47c5-af34-c866d51e29b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/metadata/MetaApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/metadata/MetaDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/batman/qualifier/Qualifier1App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/batman/qualifier/Qualifier2App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/batman/qualifier/Qualifier3App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/batman/qualifier/bean/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/batman/qualifier/config/WebMvcConfiguration1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/batman/qualifier/config/WebMvcConfiguration2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/batman/qualifier/config/WebMvcConfiguration3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/metadata/MetaClassApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/batman/metadata/MetaClassApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/metadata/MetaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/batman/metadata/MetaDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/metadata/MetaResourceApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/batman/metadata/MetaResourceApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,26 +99,14 @@
       <recent name="$PROJECT_DIR$/man-spring" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.linkedbear.spring.xuefei.batman.qualifier" />
+      <recent name="com.linkedbear.spring.xuefei.batman.qualifier.config" />
       <recent name="com.linkedbear.spring.xuefei.importannotation.bean" />
       <recent name="com.linkedbear.spring.xuefei.condition.bean" />
       <recent name="com.linkedbear.spring.xuefei.bean.bean" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MetaResourceApp">
-    <configuration name="A02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.a02.A02" />
-      <module name="show" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AutowireCapableBeanFactoryApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.xuefei.autowire.AutowireCapableBeanFactoryApp" />
-      <module name="spring-01-ioc" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Qualifier2App">
     <configuration name="MetaClassApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.xuefei.metadata.MetaClassApp" />
       <module name="spring-01-ioc" />
@@ -125,10 +121,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A03" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="ACTIVE_PROFILES" />
-      <module name="show" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.a03.A03" />
+    <configuration name="Qualifier1App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.xuefei.batman.qualifier.Qualifier1App" />
+      <module name="spring-01-ioc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Qualifier2App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.xuefei.batman.qualifier.Qualifier2App" />
+      <module name="spring-01-ioc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Qualifier3App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedbear.spring.xuefei.batman.qualifier.Qualifier3App" />
+      <module name="spring-01-ioc" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,21 +157,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AutowireCapableBeanFactoryApp" />
       <item itemvalue="Application.MetaClassApp" />
       <item itemvalue="Application.MetaResourceApp" />
-      <item itemvalue="Application.A02" />
+      <item itemvalue="Application.Qualifier1App" />
+      <item itemvalue="Application.Qualifier2App" />
+      <item itemvalue="Application.Qualifier3App" />
       <item itemvalue="Spring Boot.BootQuickstartApplication" />
       <item itemvalue="Spring Boot.DemoApplication" />
-      <item itemvalue="Spring Boot.A03" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Qualifier2App" />
+        <item itemvalue="Application.Qualifier3App" />
+        <item itemvalue="Application.Qualifier1App" />
         <item itemvalue="Application.MetaResourceApp" />
         <item itemvalue="Application.MetaClassApp" />
-        <item itemvalue="Application.AutowireCapableBeanFactoryApp" />
-        <item itemvalue="Spring Boot.A03" />
-        <item itemvalue="Application.A02" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +207,7 @@
       <workItem from="1689694484423" duration="1905000" />
       <workItem from="1689741516445" duration="11124000" />
       <workItem from="1690380945677" duration="4655000" />
-      <workItem from="1690715907234" duration="7075000" />
+      <workItem from="1690715907234" duration="8646000" />
     </task>
     <servers />
   </component>
@@ -416,23 +425,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$USER_HOME$/repository/org/springframework/spring-beans/5.3.10/spring-beans-5.3.10-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
-          <line>1408</line>
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/repository/org/springframework/spring-beans/5.3.10/spring-beans-5.3.10-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
           <line>1501</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/repository/org/springframework/spring-beans/5.3.10/spring-beans-5.3.10-sources.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.java</url>
-          <line>396</line>
-          <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/metadata/MetaApp.java</url>
+          <url>file://$PROJECT_DIR$/spring-learning-code/spring-01-ioc/src/main/java/com/linkedbear/spring/xuefei/batman/metadata/MetaClassApp.java</url>
           <line>57</line>
           <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/repository/org/springframework/spring-beans/5.3.10/spring-beans-5.3.10-sources.jar!/org/springframework/beans/factory/annotation/QualifierAnnotationAutowireCandidateResolver.java</url>
+          <line>145</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/repository/org/springframework/spring-beans/5.3.10/spring-beans-5.3.10-sources.jar!/org/springframework/beans/factory/annotation/QualifierAnnotationAutowireCandidateResolver.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/repository/org/springframework/spring-beans/5.3.10/spring-beans-5.3.10-sources.jar!/org/springframework/beans/factory/annotation/QualifierAnnotationAutowireCandidateResolver.java</url>
+          <line>207</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/repository/org/springframework/spring-beans/5.3.10/spring-beans-5.3.10-sources.jar!/org/springframework/beans/factory/annotation/QualifierAnnotationAutowireCandidateResolver.java</url>
+          <line>222</line>
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
