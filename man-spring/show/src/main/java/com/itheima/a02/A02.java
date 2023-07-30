@@ -93,17 +93,20 @@ public class A02 {
     @Configuration
     static class WebConfig {
         @Bean
-        public ServletWebServerFactory servletWebServerFactory(){
+        public ServletWebServerFactory servletWebServerFactory() {
             return new TomcatServletWebServerFactory();
         }
+
         @Bean
         public DispatcherServlet dispatcherServlet() {
             return new DispatcherServlet();
         }
+
         @Bean
         public DispatcherServletRegistrationBean registrationBean(DispatcherServlet dispatcherServlet) {
             return new DispatcherServletRegistrationBean(dispatcherServlet, "/");
         }
+
         @Bean("/hello")
         public Controller controller1() {
             return (request, response) -> {
