@@ -74,6 +74,7 @@ public class A46 {
         System.out.println(value);
     }
 
+    @Component("bean1")
     public class Bean1 {
         @Value("${JAVA_HOME}")
         private String home;

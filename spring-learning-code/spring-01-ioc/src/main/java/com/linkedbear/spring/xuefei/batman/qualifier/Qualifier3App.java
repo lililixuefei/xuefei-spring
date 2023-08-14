@@ -1,6 +1,5 @@
 package com.linkedbear.spring.xuefei.batman.qualifier;
 
-import com.linkedbear.spring.xuefei.batman.qualifier.config.WebMvcConfiguration2;
 import com.linkedbear.spring.xuefei.batman.qualifier.config.WebMvcConfiguration3;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

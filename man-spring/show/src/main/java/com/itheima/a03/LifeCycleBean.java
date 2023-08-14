@@ -22,6 +22,11 @@ public class LifeCycleBean {
         log.debug("依赖注入: {}", home);
     }
 
+    @Autowired
+    public void autowire1(Person person) {
+        log.debug("依赖注入: {}", person);
+    }
+
     @PostConstruct
     public void init() {
         log.debug("初始化");

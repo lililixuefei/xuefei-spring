@@ -2,6 +2,8 @@ package com.itheima.a02;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.support.DefaultListableBeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.boot.autoconfigure.web.servlet.DispatcherServletRegistrationBean;
 import org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory;
 import org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext;
@@ -11,6 +13,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
+import org.springframework.core.io.FileSystemResource;
 import org.springframework.web.servlet.DispatcherServlet;
 import org.springframework.web.servlet.mvc.Controller;
 
@@ -21,12 +24,13 @@ public class A02 {
     private static final Logger log = LoggerFactory.getLogger(A02.class);
 
     public static void main(String[] args) {
-        testClassPathXmlApplicationContext();
-//        testFileSystemXmlApplicationContext();
-//        testAnnotationConfigApplicationContext();
-//        testAnnotationConfigServletWebServerApplicationContext();
 
-        /*DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();
+        testClassPathXmlApplicationContext();
+        testFileSystemXmlApplicationContext();
+        testAnnotationConfigApplicationContext();
+        testAnnotationConfigServletWebServerApplicationContext();
+
+        DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();
         System.out.println("读取之前...");
         for (String name : beanFactory.getBeanDefinitionNames()) {
             System.out.println(name);
@@ -36,7 +40,7 @@ public class A02 {
         reader.loadBeanDefinitions(new FileSystemResource("src\\main\\resources\\a02.xml"));
         for (String name : beanFactory.getBeanDefinitionNames()) {
             System.out.println(name);
-        }*/
+        }
 
         /*
             学到了什么
@@ -47,21 +51,21 @@ public class A02 {
 
     // ⬇️较为经典的容器, 基于 classpath 下 xml 格式的配置文件来创建
     private static void testClassPathXmlApplicationContext() {
-        ClassPathXmlApplicationContext context =
-                new ClassPathXmlApplicationContext("a02.xml");
+
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("a02.xml");
 
         for (String name : context.getBeanDefinitionNames()) {
             System.out.println(name);
         }
 
         System.out.println(context.getBean(Bean2.class).getBean1());
+
     }
 
     // ⬇️基于磁盘路径下 xml 格式的配置文件来创建
     private static void testFileSystemXmlApplicationContext() {
-        FileSystemXmlApplicationContext context =
-                new FileSystemXmlApplicationContext(
-                        "src\\main\\resources\\a02.xml");
+
+        FileSystemXmlApplicationContext context = new FileSystemXmlApplicationContext("src\\main\\resources\\a02.xml");
         for (String name : context.getBeanDefinitionNames()) {
             System.out.println(name);
         }
@@ -71,8 +75,7 @@ public class A02 {
 
     // ⬇️较为经典的容器, 基于 java 配置类来创建
     private static void testAnnotationConfigApplicationContext() {
-        AnnotationConfigApplicationContext context =
-                new AnnotationConfigApplicationContext(Config.class);
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
 
         for (String name : context.getBeanDefinitionNames()) {
             System.out.println(name);
@@ -83,8 +86,7 @@ public class A02 {
 
     // ⬇️较为经典的容器, 基于 java 配置类来创建, 用于 web 环境
     private static void testAnnotationConfigServletWebServerApplicationContext() {
-        AnnotationConfigServletWebServerApplicationContext context =
-                new AnnotationConfigServletWebServerApplicationContext(WebConfig.class);
+        AnnotationConfigServletWebServerApplicationContext context = new AnnotationConfigServletWebServerApplicationContext(WebConfig.class);
         for (String name : context.getBeanDefinitionNames()) {
             System.out.println(name);
         }

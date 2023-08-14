@@ -21,15 +21,18 @@ public class A47_1 {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(A47_1.class);
         DefaultListableBeanFactory beanFactory = context.getDefaultListableBeanFactory();
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+
         // 1. 根据成员变量的类型注入
         DependencyDescriptor dd1 = new DependencyDescriptor(Bean1.class.getDeclaredField("bean2"), false);
         System.out.println(beanFactory.doResolveDependency(dd1, "bean1", null, null));
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+
         // 2. 根据参数的类型注入
         Method setBean2 = Bean1.class.getDeclaredMethod("setBean2", Bean2.class);
         DependencyDescriptor dd2 = new DependencyDescriptor(new MethodParameter(setBean2, 0), false);
         System.out.println(beanFactory.doResolveDependency(dd2, "bean1", null, null));
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+
         // 3. 结果包装为 Optional<Bean2>
         DependencyDescriptor dd3 = new DependencyDescriptor(Bean1.class.getDeclaredField("bean3"), false);
         if (dd3.getDependencyType() == Optional.class) {
@@ -38,6 +41,7 @@ public class A47_1 {
             System.out.println(Optional.ofNullable(result));
         }
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+
         // 4. 结果包装为 ObjectProvider,ObjectFactory
         DependencyDescriptor dd4 = new DependencyDescriptor(Bean1.class.getDeclaredField("bean4"), false);
         if (dd4.getDependencyType() == ObjectFactory.class) {
@@ -51,6 +55,7 @@ public class A47_1 {
             System.out.println(objectFactory.getObject());
         }
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+
         // 5. 对 @Lazy 的处理
         DependencyDescriptor dd5 = new DependencyDescriptor(Bean1.class.getDeclaredField("bean2"), false);
         ContextAnnotationAutowireCandidateResolver resolver = new ContextAnnotationAutowireCandidateResolver();
@@ -74,13 +79,14 @@ public class A47_1 {
         }
         @Autowired private Optional<Bean2> bean3;
         @Autowired private ObjectFactory<Bean2> bean4;
+
     }
 
     @Component("bean2")
     static class Bean2 {
-        /*@Override
+        @Override
         public String toString() {
             return super.toString();
-        }*/
+        }
     }
 }
