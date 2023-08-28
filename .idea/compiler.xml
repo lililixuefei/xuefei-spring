@@ -8,25 +8,29 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-00-introduction" />
         <module name="spring-01-ioc" />
-        <module name="spring-02-aop" />
+        <module name="small-spring" />
         <module name="show" />
         <module name="spring-04-webmvc-anno-withdao" />
+        <module name="spring-04-web" />
+        <module name="spring-04-webmvc" />
+        <module name="spring-02-aop" />
+        <module name="small-spring-step-06" />
         <module name="spring-04-webmvc-xml-withdao" />
         <module name="spring-05-integration" />
         <module name="spring-03-dao" />
+        <module name="small-spring-step-05" />
         <module name="spring-learning-code" />
-        <module name="spring-04-web" />
-        <module name="spring-04-webmvc" />
+        <module name="mini-spring" />
+        <module name="small-spring-step-02" />
+        <module name="small-spring-step-01" />
+        <module name="small-spring-step-04" />
+        <module name="small-spring-step-03" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="spring-06-boot" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="show" options="-parameters" />
-      <module name="spring-06-boot" options="-parameters" />
     </option>
   </component>
 </project>

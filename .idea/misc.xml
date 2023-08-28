@@ -22,6 +22,14 @@
         <option value="$PROJECT_DIR$/spring-learning-code/spring-04-webmvc-xml-withdao/pom.xml" />
         <option value="$PROJECT_DIR$/spring-learning-code/spring-05-integration/pom.xml" />
         <option value="$PROJECT_DIR$/man-spring/show/pom.xml" />
+        <option value="$PROJECT_DIR$/mini-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/small-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/small-spring/small-spring-step-01/pom.xml" />
+        <option value="$PROJECT_DIR$/small-spring/small-spring-step-02/pom.xml" />
+        <option value="$PROJECT_DIR$/small-spring/small-spring-step-03/pom.xml" />
+        <option value="$PROJECT_DIR$/small-spring/small-spring-step-05/pom.xml" />
+        <option value="$PROJECT_DIR$/small-spring/small-spring-step-04/pom.xml" />
+        <option value="$PROJECT_DIR$/small-spring/small-spring-step-06/pom.xml" />
       </list>
     </option>
   </component>
