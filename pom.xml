@@ -12,6 +12,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring-learning-code</module>
+        <module>jiangnan-spring</module>
     </modules>
 
     <properties>

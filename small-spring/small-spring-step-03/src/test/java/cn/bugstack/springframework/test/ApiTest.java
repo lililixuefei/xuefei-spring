@@ -3,13 +3,12 @@ package cn.bugstack.springframework.test;
 import cn.bugstack.springframework.beans.factory.config.BeanDefinition;
 import cn.bugstack.springframework.beans.factory.support.DefaultListableBeanFactory;
 import cn.bugstack.springframework.test.bean.UserService;
-import net.sf.cglib.proxy.Callback;
-import net.sf.cglib.proxy.Enhancer;
-import net.sf.cglib.proxy.NoOp;
+import net.sf.cglib.proxy.*;
 import org.junit.Test;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 
 /**
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
