@@ -20,12 +20,16 @@
         <module name="spring-03-dao" />
         <module name="small-spring-step-05" />
         <module name="jiangnan-spring" />
+        <module name="small-spring-step-16" />
         <module name="spring-learning-code" />
         <module name="mini-spring" />
+        <module name="small-spring-step-07" />
         <module name="small-spring-step-02" />
         <module name="small-spring-step-01" />
         <module name="small-spring-step-04" />
+        <module name="small-spring-step-15" />
         <module name="small-spring-step-03" />
+        <module name="small-spring-step-14" />
       </profile>
     </annotationProcessing>
   </component>

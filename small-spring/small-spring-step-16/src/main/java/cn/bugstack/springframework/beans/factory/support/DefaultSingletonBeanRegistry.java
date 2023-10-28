@@ -61,6 +61,7 @@ public class DefaultSingletonBeanRegistry implements SingletonBeanRegistry {
         return singletonObject;
     }
 
+    @Override
     public void registerSingleton(String beanName, Object singletonObject) {
         singletonObjects.put(beanName, singletonObject);
         earlySingletonObjects.remove(beanName);

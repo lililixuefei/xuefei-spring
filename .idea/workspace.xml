@@ -4,19 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5735115f-9f8f-47c5-af34-c866d51e29b0" name="Default Changelist" comment="Spring 源码学习 - 4">
-      <change afterPath="$PROJECT_DIR$/jiangnan-spring/src/main/java/com/xuefei/fathersoncontainer/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiangnan-spring/src/main/java/com/xuefei/fathersoncontainer/consumer/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiangnan-spring/src/main/java/com/xuefei/fathersoncontainer/merchant/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiangnan-spring/src/main/resources/fathersoncontainer/consumer_beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiangnan-spring/src/main/resources/fathersoncontainer/merchant_beans.xml" afterDir="false" />
+    <list default="true" id="5735115f-9f8f-47c5-af34-c866d51e29b0" name="Default Changelist" comment="Spring 中的父子容器">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiangnan-spring/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiangnan-spring/src/main/java/com/xuefei/factoryBean/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiangnan-spring/src/main/java/com/xuefei/factoryBean/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small-spring/small-spring-step-07/src/main/java/cn/bugstack/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring/small-spring-step-07/src/main/java/cn/bugstack/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small-spring/small-spring-step-14/src/main/java/cn/bugstack/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring/small-spring-step-14/src/main/java/cn/bugstack/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small-spring/small-spring-step-14/src/main/java/cn/bugstack/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring/small-spring-step-14/src/main/java/cn/bugstack/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small-spring/small-spring-step-16/src/main/java/cn/bugstack/springframework/aop/framework/autoproxy/DefaultAdvisorAutoProxyCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring/small-spring-step-16/src/main/java/cn/bugstack/springframework/aop/framework/autoproxy/DefaultAdvisorAutoProxyCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small-spring/small-spring-step-16/src/main/java/cn/bugstack/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring/small-spring-step-16/src/main/java/cn/bugstack/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small-spring/small-spring-step-16/src/main/java/cn/bugstack/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring/small-spring-step-16/src/main/java/cn/bugstack/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,31 +67,31 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/xuefei-work/xuefei-spring/jiangnan-spring/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "695614677e0b8e75fffe5f5cd71eb669",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/xuefei-work/xuefei-spring/jiangnan-spring/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;695614677e0b8e75fffe5f5cd71eb669&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\xuefei-work\xuefei-spring\jiangnan-spring\src\main\resources" />
@@ -120,20 +119,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainApp">
-    <configuration name="A06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.a06.A06" />
-      <module name="show" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xuefei.fathersoncontainer.MainApp" />
-      <module name="jiangnan-spring" />
+  <component name="RunManager" selected="JUnit.CircularReferenceWithProxyBeanTest.testCircularReference">
+    <configuration name="CircleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.bugstack.springframework.test.CircleTest" />
+      <module name="small-spring-step-16" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuefei.fathersoncontainer.*" />
+          <option name="PATTERN" value="cn.bugstack.springframework.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,26 +133,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBeanFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.a02.TestBeanFactory" />
-      <module name="show" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiTest.test_BeanFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="small-spring-step-05" />
+    <configuration name="ApiTest.test_hook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="small-spring-step-07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.bugstack.springframework.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="cn.bugstack.springframework.test" />
       <option name="MAIN_CLASS_NAME" value="cn.bugstack.springframework.test.ApiTest" />
-      <option name="METHOD_NAME" value="test_BeanFactory" />
+      <option name="METHOD_NAME" value="test_hook" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A03" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="show" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.a03.A03" />
+    <configuration name="ApiTest.test_scan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="small-spring-step-14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.bugstack.springframework.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.bugstack.springframework.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.bugstack.springframework.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_scan" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_xml (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="small-spring-step-07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.bugstack.springframework.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.bugstack.springframework.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.bugstack.springframework.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_xml" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircularReferenceWithProxyBeanTest.testCircularReference" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mini-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.springframework.test.ioc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.springframework.test.ioc" />
+      <option name="MAIN_CLASS_NAME" value="org.springframework.test.ioc.CircularReferenceWithProxyBeanTest" />
+      <option name="METHOD_NAME" value="testCircularReference" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,21 +212,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MainApp" />
-      <item itemvalue="Application.A06" />
-      <item itemvalue="Application.TestBeanFactory" />
-      <item itemvalue="JUnit.ApiTest.test_BeanFactory" />
+      <item itemvalue="Application.CircleTest" />
+      <item itemvalue="JUnit.ApiTest.test_hook" />
+      <item itemvalue="JUnit.ApiTest.test_scan" />
+      <item itemvalue="JUnit.ApiTest.test_xml (1)" />
+      <item itemvalue="JUnit.CircularReferenceWithProxyBeanTest.testCircularReference" />
       <item itemvalue="Spring Boot.BootQuickstartApplication" />
       <item itemvalue="Spring Boot.DemoApplication" />
-      <item itemvalue="Spring Boot.A03" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainApp" />
-        <item itemvalue="JUnit.ApiTest.test_BeanFactory" />
-        <item itemvalue="Application.A06" />
-        <item itemvalue="Spring Boot.A03" />
-        <item itemvalue="Application.TestBeanFactory" />
+        <item itemvalue="JUnit.CircularReferenceWithProxyBeanTest.testCircularReference" />
+        <item itemvalue="Application.CircleTest" />
+        <item itemvalue="JUnit.ApiTest.test_hook" />
+        <item itemvalue="JUnit.ApiTest.test_xml (1)" />
+        <item itemvalue="JUnit.ApiTest.test_scan" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +269,9 @@
       <workItem from="1693235821456" duration="409000" />
       <workItem from="1697122008252" duration="1293000" />
       <workItem from="1697123307425" duration="648000" />
-      <workItem from="1697374437662" duration="976000" />
+      <workItem from="1697374437662" duration="2293000" />
+      <workItem from="1697465212657" duration="2846000" />
+      <workItem from="1698495230688" duration="12276000" />
     </task>
     <task id="LOCAL-00001" summary="Spring 源码学习 - 3">
       <created>1692028307904</created>
@@ -246,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692028307904</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Spring 中的父子容器">
+      <created>1697375436213</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697375436213</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +307,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Spring 源码学习 - 3" />
     <MESSAGE value="Spring 源码学习 - 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring 源码学习 - 4" />
+    <MESSAGE value="Spring 中的父子容器" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring 中的父子容器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
