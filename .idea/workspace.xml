@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5735115f-9f8f-47c5-af34-c866d51e29b0" name="Default Changelist" comment="Spring 中的父子容器">
+    <list default="true" id="5735115f-9f8f-47c5-af34-c866d51e29b0" name="Default Changelist" comment="Spring 三级缓存">
+      <change afterPath="$PROJECT_DIR$/small-spring/small-spring-step-17/src/test/java/cn/bugstack/springframework/test/converter/StringToBooleanConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiangnan-spring/src/main/java/com/xuefei/factoryBean/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/jiangnan-spring/src/main/java/com/xuefei/factoryBean/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small-spring/small-spring-step-07/src/main/java/cn/bugstack/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring/small-spring-step-07/src/main/java/cn/bugstack/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small-spring/small-spring-step-14/src/main/java/cn/bugstack/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring/small-spring-step-14/src/main/java/cn/bugstack/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small-spring/small-spring-step-14/src/main/java/cn/bugstack/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring/small-spring-step-14/src/main/java/cn/bugstack/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small-spring/small-spring-step-16/src/main/java/cn/bugstack/springframework/aop/framework/autoproxy/DefaultAdvisorAutoProxyCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring/small-spring-step-16/src/main/java/cn/bugstack/springframework/aop/framework/autoproxy/DefaultAdvisorAutoProxyCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small-spring/small-spring-step-16/src/main/java/cn/bugstack/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring/small-spring-step-16/src/main/java/cn/bugstack/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small-spring/small-spring-step-16/src/main/java/cn/bugstack/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring/small-spring-step-16/src/main/java/cn/bugstack/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small-spring/small-spring-step-17/src/test/java/cn/bugstack/springframework/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring/small-spring-step-17/src/test/java/cn/bugstack/springframework/test/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small-spring/small-spring-step-17/src/test/java/cn/bugstack/springframework/test/converter/StringToLocalDateConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring/small-spring-step-17/src/test/java/cn/bugstack/springframework/test/converter/StringToLocalDateConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small-spring/small-spring-step-17/src/test/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/small-spring/small-spring-step-17/src/test/resources/spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +116,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CircularReferenceWithProxyBeanTest.testCircularReference">
+  <component name="RunManager" selected="JUnit.ApiTest.test_convert">
     <configuration name="CircleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.bugstack.springframework.test.CircleTest" />
       <module name="small-spring-step-16" />
@@ -133,8 +130,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_hook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="small-spring-step-07" />
+    <configuration name="ApiTest.test_StringToBooleanConverter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="small-spring-step-17" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.bugstack.springframework.test.*" />
@@ -143,14 +140,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.bugstack.springframework.test" />
       <option name="MAIN_CLASS_NAME" value="cn.bugstack.springframework.test.ApiTest" />
-      <option name="METHOD_NAME" value="test_hook" />
+      <option name="METHOD_NAME" value="test_StringToBooleanConverter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_scan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="small-spring-step-14" />
+    <configuration name="ApiTest.test_StringToIntegerConverter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="small-spring-step-17" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.bugstack.springframework.test.*" />
@@ -159,14 +156,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.bugstack.springframework.test" />
       <option name="MAIN_CLASS_NAME" value="cn.bugstack.springframework.test.ApiTest" />
-      <option name="METHOD_NAME" value="test_scan" />
+      <option name="METHOD_NAME" value="test_StringToIntegerConverter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_xml (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="small-spring-step-07" />
+    <configuration name="ApiTest.test_convert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="small-spring-step-17" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.bugstack.springframework.test.*" />
@@ -175,7 +172,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.bugstack.springframework.test" />
       <option name="MAIN_CLASS_NAME" value="cn.bugstack.springframework.test.ApiTest" />
-      <option name="METHOD_NAME" value="test_xml" />
+      <option name="METHOD_NAME" value="test_convert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -213,20 +210,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.CircleTest" />
-      <item itemvalue="JUnit.ApiTest.test_hook" />
-      <item itemvalue="JUnit.ApiTest.test_scan" />
-      <item itemvalue="JUnit.ApiTest.test_xml (1)" />
+      <item itemvalue="JUnit.ApiTest.test_StringToBooleanConverter" />
+      <item itemvalue="JUnit.ApiTest.test_StringToIntegerConverter" />
+      <item itemvalue="JUnit.ApiTest.test_convert" />
       <item itemvalue="JUnit.CircularReferenceWithProxyBeanTest.testCircularReference" />
       <item itemvalue="Spring Boot.BootQuickstartApplication" />
       <item itemvalue="Spring Boot.DemoApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_convert" />
+        <item itemvalue="JUnit.ApiTest.test_StringToBooleanConverter" />
+        <item itemvalue="JUnit.ApiTest.test_StringToIntegerConverter" />
         <item itemvalue="JUnit.CircularReferenceWithProxyBeanTest.testCircularReference" />
         <item itemvalue="Application.CircleTest" />
-        <item itemvalue="JUnit.ApiTest.test_hook" />
-        <item itemvalue="JUnit.ApiTest.test_xml (1)" />
-        <item itemvalue="JUnit.ApiTest.test_scan" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +268,7 @@
       <workItem from="1697123307425" duration="648000" />
       <workItem from="1697374437662" duration="2293000" />
       <workItem from="1697465212657" duration="2846000" />
-      <workItem from="1698495230688" duration="12276000" />
+      <workItem from="1698495230688" duration="18324000" />
     </task>
     <task id="LOCAL-00001" summary="Spring 源码学习 - 3">
       <created>1692028307904</created>
@@ -287,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697375436213</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Spring 三级缓存">
+      <created>1698511052122</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698511052122</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +312,8 @@
     <MESSAGE value="Spring 源码学习 - 3" />
     <MESSAGE value="Spring 源码学习 - 4" />
     <MESSAGE value="Spring 中的父子容器" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring 中的父子容器" />
+    <MESSAGE value="Spring 三级缓存" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring 三级缓存" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -777,6 +782,27 @@
           <url>jar://$USER_HOME$/repository/org/springframework/spring-beans/5.3.10/spring-beans-5.3.10-sources.jar!/org/springframework/beans/factory/support/ConstructorResolver.java</url>
           <line>396</line>
           <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/small-spring/small-spring-step-17/src/main/java/cn/bugstack/springframework/context/support/ConversionServiceFactoryBean.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/small-spring/small-spring-step-17/src/main/java/cn/bugstack/springframework/context/support/ConversionServiceFactoryBean.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/small-spring/small-spring-step-17/src/test/java/cn/bugstack/springframework/test/converter/StringToLocalDateConverter.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/small-spring/small-spring-step-17/src/main/java/cn/bugstack/springframework/context/support/ConversionServiceFactoryBean.java</url>
+          <line>32</line>
+          <properties field="converters" class="cn.bugstack.springframework.context.support.ConversionServiceFactoryBean" />
+          <option name="timeStamp" value="174" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

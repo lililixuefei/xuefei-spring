@@ -4,6 +4,7 @@ import cn.bugstack.springframework.context.support.ClassPathXmlApplicationContex
 import cn.bugstack.springframework.core.convert.converter.Converter;
 import cn.bugstack.springframework.core.convert.support.StringToNumberConverterFactory;
 import cn.bugstack.springframework.test.bean.Husband;
+import cn.bugstack.springframework.test.converter.StringToBooleanConverter;
 import cn.bugstack.springframework.test.converter.StringToIntegerConverter;
 import org.junit.Test;
 
@@ -24,6 +25,12 @@ public class ApiTest {
         StringToIntegerConverter converter = new StringToIntegerConverter();
         Integer num = converter.convert("1234");
         System.out.println("测试结果：" + num);
+    }
+
+    @Test
+    public void test_StringToBooleanConverter() {
+        Boolean flag = (Boolean) new StringToBooleanConverter().convert("true", String.class, Boolean.class);
+        System.out.println("测试结果：" + flag);
     }
 
     @Test

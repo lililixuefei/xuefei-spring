@@ -10,9 +10,10 @@
     </bean>
 
     <bean id="conversionService" class="cn.bugstack.springframework.context.support.ConversionServiceFactoryBean">
-        <property name="converters" ref="converters"/>
+        <property name="converters" ref="converters2"/>
     </bean>
 
     <bean id="converters" class="cn.bugstack.springframework.test.converter.ConvertersFactoryBean"/>
+    <bean id="converters2" class="cn.bugstack.springframework.test.converter.StringToLocalDateConverter"/>
 
 </beans>
